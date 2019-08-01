@@ -1,12 +1,13 @@
 server:
-  context-path: /api/v1
-  port: 8080
+  port: 8089
+  servlet:
+    context-path: /api/v1
 
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: buzhidao
+    password: root
     url: jdbc:mysql://localhost/fastsbapiDB?characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true

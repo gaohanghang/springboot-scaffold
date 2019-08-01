@@ -22,7 +22,7 @@ import java.util.Map;
 @RequestMapping("/code")
 public class CodeGenerateController {
 
-    @Value("${server.context-path}")
+    @Value("${server.servlet.context-path}")
     private String path;
 
     @GetMapping("/index")
